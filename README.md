@@ -1,8 +1,8 @@
 react fireworks
 
-在react框架中使用的烟花效果
+描述：在react框架中使用的烟花效果
 
-示例（mock模拟假数据）
+示例
 
 ![image](https://github.com/liuyuqin1991/react-fireworks/blob/master/img/fireworks.gif)
 
@@ -22,9 +22,11 @@ fireworks.init("your dom id",{});
 
 4.api
 
-● fireworks.start()
+● fireworks.init("your dom id",{}) 初始化
+ 
+● fireworks.start() 开始
 
-● fireworks.stop()
+● fireworks.stop() 停止
 
 参数配置：
 
