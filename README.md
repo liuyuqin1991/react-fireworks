@@ -4,9 +4,23 @@ react fireworks
 
 使用方式：
 
+1.安装
+
+npm i react-fireworks
+
+2.引用
+
 import fireworks from 'react-fireworks';
 
+3.使用
+
 fireworks.init("your dom id",{});
+
+4.api
+
+● fireworks。start()
+
+● fireworks。stop()
 
 参数配置：
 
