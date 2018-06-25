@@ -18,9 +18,9 @@ fireworks.init("your dom id",{});
 
 4.api
 
-● fireworks。start()
+● fireworks.start()
 
-● fireworks。stop()
+● fireworks.stop()
 
 参数配置：
 
