@@ -167,7 +167,7 @@ export default  {
       SCREEN_BOTTOM = options.bottom || '0px';
       SCREEN_LEFT = options.left || '0px';
       SCREEN_RIGHT = options.right || '0px';
-      Z_INDEX = options.z_index || 100;
+      Z_INDEX = options.zIndex || 100;
       MAX_PARTICLES = opt.explode_debris_num * 10;
 
       //创建canvas
@@ -181,7 +181,7 @@ export default  {
       canvas.style.left = SCREEN_LEFT;
       canvas.style.right = SCREEN_RIGHT;
       canvas.style.opacity = 1;
-      canvas.style[z-index] = Z_INDEX;
+      canvas.style.zIndex = Z_INDEX;
       context = canvas.getContext('2d');
 
       fireworksField.appendChild(canvas);
