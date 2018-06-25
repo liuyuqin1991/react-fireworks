@@ -16,7 +16,7 @@ let fireworksField = "",
   context;
 
 let reloadTimer;
-let loopTimer
+let loopTimer;
 
 //粒子类
 class Particle{
@@ -274,6 +274,10 @@ export default  {
 
   stop:function () {
     clearInterval(reloadTimer);
+    //20秒后清除loop定时器
+    setTimeout(function () {
+      clearInterval(loopTimer);
+    },20000)
   },
 };
 
