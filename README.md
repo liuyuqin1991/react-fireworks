@@ -2,6 +2,10 @@ react fireworks
 
 在react框架中使用的烟花效果
 
+示例（mock模拟假数据）
+
+![image](https://github.com/liuyuqin1991/react-fireworks/blob/master/img/fireworks.gif)
+
 使用方式：
 
 1.安装
