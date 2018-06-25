@@ -116,10 +116,10 @@ class Rocket extends Particle{
     }
     c.save();
     c.globalCompositeOperation = 'lighter';
-    var x = this.pos.x,
+    let x = this.pos.x,
       y = this.pos.y,
       r = this.size / 2;
-    var gradient = c.createRadialGradient(x, y, 0.1, x, y, r);
+    let gradient = c.createRadialGradient(x, y, 0.1, x, y, r);
     gradient.addColorStop(0.1, "rgba(255, 255, 255 ," + this.alpha + ")");
     gradient.addColorStop(1, "rgba(0, 0, 0, " + this.alpha + ")");
     c.fillStyle = gradient;
