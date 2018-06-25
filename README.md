@@ -22,9 +22,11 @@ fireworks.init("your dom id",{});
 
 4.api
 
-● fireworks.start()
+● fireworks.init("your dom id",{}) 初始化
+ 
+● fireworks.start() 开始
 
-● fireworks.stop()
+● fireworks.stop() 停止
 
 参数配置：
 
