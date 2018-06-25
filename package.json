@@ -1,0 +1,27 @@
+{
+  "name": "react-fireworks",
+  "version": "1.0.0",
+  "description": "this is a react fireworks",
+  "main": "react-fireworks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "readme": "node ./node_modules/.bin/node-readme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuyuqin1991/react-fireworks.git"
+  },
+  "keywords": [
+    "react",
+    "fireworks"
+  ],
+  "author": "liuyuqin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuyuqin1991/react-fireworks/issues"
+  },
+  "homepage": "https://github.com/liuyuqin1991/react-fireworks#readme",
+  "devDependencies": {
+    "node-readme": "^0.1.9"
+  }
+}
