@@ -4,8 +4,7 @@
   "description": "this is a react fireworks",
   "main": "react-fireworks.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "readme": "node ./node_modules/.bin/node-readme"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -21,7 +20,5 @@
     "url": "https://github.com/liuyuqin1991/react-fireworks/issues"
   },
   "homepage": "https://github.com/liuyuqin1991/react-fireworks#readme",
-  "devDependencies": {
-    "node-readme": "^0.1.9"
-  }
+  "devDependencies": {}
 }
