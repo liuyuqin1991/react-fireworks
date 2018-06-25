@@ -11,6 +11,7 @@ let fireworksField = "",
   SCREEN_BOTTOM,
   SCREEN_LEFT,
   SCREEN_RIGHT,
+  Z_INDEX,
   canvas,
   context;
 
@@ -144,6 +145,7 @@ export default  {
    * 5、explode_particles_resistance 爆炸粒子半径 （推荐值：4-10）
    * 6、explode_debris_num 爆炸粒子个数
    * 7、explode_particles_size 爆炸粒子大小
+   * 8、z_index canvas层级
    * @returns {string}
    */
   init:function (dom,options) {
@@ -159,12 +161,13 @@ export default  {
       opt.explode_debris_num =  Math.random() * 10 + (options.debris_num || 150);
       opt.explode_particles_resistance = options.explode_particles_resistance || 5;
       opt.explode_particles_size = options.explode_particles_resistance || 10;
-      SCREEN_WIDTH = options.width || document.body.clientWidth;
-      SCREEN_HEIGHT = options.height || document.body.clientHeight;
+      SCREEN_WIDTH = options.width || document.body.clientWidth + "px";
+      SCREEN_HEIGHT = options.height || document.body.clientHeight+ "px";
       SCREEN_TOP = options.top || '0px';
       SCREEN_BOTTOM = options.bottom || '0px';
       SCREEN_LEFT = options.left || '0px';
       SCREEN_RIGHT = options.right || '0px';
+      Z_INDEX = options.z_index || 100;
       MAX_PARTICLES = opt.explode_debris_num * 10;
 
       //创建canvas
@@ -178,6 +181,7 @@ export default  {
       canvas.style.left = SCREEN_LEFT;
       canvas.style.right = SCREEN_RIGHT;
       canvas.style.opacity = 1;
+      canvas.style[z-index] = Z_INDEX;
       context = canvas.getContext('2d');
 
       fireworksField.appendChild(canvas);

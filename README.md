@@ -42,4 +42,6 @@ fireworks.init("your dom id",{});
 
 9、explode_particles_size 爆炸粒子大小
 
+10、z_index canvas层级
+
 
